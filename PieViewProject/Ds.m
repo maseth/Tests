@@ -13,7 +13,7 @@
 
 - (NSUInteger)numberOfSlicesInPieView:(PieView *)pieView{
 	//Teraz wiecej zmian !
-	////
+	//// a tu master znowu ! 
 	return 7;
 }
 
