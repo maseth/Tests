@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7900988916C84B2A00FBAAC9 /* Ds.m in Sources */ = {isa = PBXBuildFile; fileRef = 7900988816C84B2A00FBAAC9 /* Ds.m */; };
 		79959F7E16BDB97500D5B0A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79959F7D16BDB97500D5B0A1 /* Cocoa.framework */; };
 		79959F8816BDB97500D5B0A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79959F8616BDB97500D5B0A1 /* InfoPlist.strings */; };
 		79959F8A16BDB97500D5B0A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79959F8916BDB97500D5B0A1 /* main.m */; };
 		79959F8E16BDB97500D5B0A1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 79959F8C16BDB97500D5B0A1 /* Credits.rtf */; };
 		79959F9116BDB97500D5B0A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79959F9016BDB97500D5B0A1 /* AppDelegate.m */; };
 		79959F9416BDB97600D5B0A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79959F9216BDB97600D5B0A1 /* MainMenu.xib */; };
+		79959F9C16BDB9A500D5B0A1 /* PieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79959F9B16BDB9A500D5B0A1 /* PieView.m */; };
+		79959F9E16BDB9EC00D5B0A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79959F9D16BDB9EC00D5B0A1 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7900988716C84B2A00FBAAC9 /* Ds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ds.h; sourceTree = "<group>"; };
+		7900988816C84B2A00FBAAC9 /* Ds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ds.m; sourceTree = "<group>"; };
 		79959F7A16BDB97500D5B0A1 /* PieViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79959F7D16BDB97500D5B0A1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		79959F8016BDB97500D5B0A1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +34,9 @@
 		79959F8F16BDB97500D5B0A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79959F9016BDB97500D5B0A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		79959F9316BDB97600D5B0A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		79959F9A16BDB9A500D5B0A1 /* PieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieView.h; sourceTree = "<group>"; };
+		79959F9B16BDB9A500D5B0A1 /* PieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieView.m; sourceTree = "<group>"; };
+		79959F9D16BDB9EC00D5B0A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79959F9E16BDB9EC00D5B0A1 /* QuartzCore.framework in Frameworks */,
 				79959F7E16BDB97500D5B0A1 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +55,7 @@
 		79959F7116BDB97500D5B0A1 = {
 			isa = PBXGroup;
 			children = (
+				79959F9D16BDB9EC00D5B0A1 /* QuartzCore.framework */,
 				79959F8316BDB97500D5B0A1 /* PieViewProject */,
 				79959F7C16BDB97500D5B0A1 /* Frameworks */,
 				79959F7B16BDB97500D5B0A1 /* Products */,
@@ -86,6 +96,10 @@
 				79959F9016BDB97500D5B0A1 /* AppDelegate.m */,
 				79959F9216BDB97600D5B0A1 /* MainMenu.xib */,
 				79959F8416BDB97500D5B0A1 /* Supporting Files */,
+				79959F9A16BDB9A500D5B0A1 /* PieView.h */,
+				79959F9B16BDB9A500D5B0A1 /* PieView.m */,
+				7900988716C84B2A00FBAAC9 /* Ds.h */,
+				7900988816C84B2A00FBAAC9 /* Ds.m */,
 			);
 			path = PieViewProject;
 			sourceTree = "<group>";
@@ -168,6 +182,8 @@
 			files = (
 				79959F8A16BDB97500D5B0A1 /* main.m in Sources */,
 				79959F9116BDB97500D5B0A1 /* AppDelegate.m in Sources */,
+				79959F9C16BDB9A500D5B0A1 /* PieView.m in Sources */,
+				7900988916C84B2A00FBAAC9 /* Ds.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +319,7 @@
 				79959F9916BDB97600D5B0A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
