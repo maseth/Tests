@@ -12,6 +12,7 @@
 
 
 - (NSUInteger)numberOfSlicesInPieView:(PieView *)pieView{
+	//Teraz wiecej zmian ! 
 	return 7;
 }
 
